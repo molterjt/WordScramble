@@ -30,3 +30,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.square{
+    border: 1px solid black;
+    align-content: center;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.boardContainer{
+    margin: 0 ;
+    width: 50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+
+}
